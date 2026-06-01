@@ -1,0 +1,23 @@
+{
+  "name": "nip-lookup",
+  "version": "0.1.0",
+  "description": "TypeScript wrapper for Polish company data lookup by NIP (Biała Lista MF API)",
+  "main": "dist/src/index.js",
+  "types": "dist/src/index.d.ts",
+  "bin": {
+    "nip-lookup": "dist/cli.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "test": "node --experimental-vm-modules node_modules/.bin/jest"
+  },
+  "keywords": ["nip", "poland", "vat", "gus", "regon", "biała lista", "company", "lookup"],
+  "author": "Monetal Agency <hello@monetal.agency> (https://monetal.agency)",
+  "license": "MIT",
+  "engines": { "node": ">=18" },
+  "devDependencies": {
+    "typescript": "^5.4.0",
+    "@types/node": "^20.0.0"
+  }
+}
