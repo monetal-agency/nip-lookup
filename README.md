@@ -3,6 +3,7 @@
 [![npm version](https://img.shields.io/npm/v/nip-lookup)](https://www.npmjs.com/package/nip-lookup)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Node >=18](https://img.shields.io/badge/node-%3E%3D18-brightgreen)](https://nodejs.org)
+[![CI](https://github.com/monetal-agency/nip-lookup/actions/workflows/ci.yml/badge.svg)](https://github.com/monetal-agency/nip-lookup/actions/workflows/ci.yml)
 
 TypeScript wrapper for Polish company data lookup by NIP number, using the **Biała Lista** (White List) API provided by the Polish Ministry of Finance (Ministerstwo Finansów). No API key required.
 
